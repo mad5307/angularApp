@@ -22,6 +22,12 @@
 				templateUrl : 'views/contact.html',
 				controller  : 'contactController'
             })
+
+			// route for the contact page   
+			.when('/register', {
+				templateUrl : 'views/registration.html',
+				controller  : 'mainController'
+            })
             .otherwise({
 				templateUrl : 'views/home.html',
 				controller  : 'mainController'
